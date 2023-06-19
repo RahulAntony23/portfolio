@@ -60,7 +60,7 @@ const About = () => {
           <br></br>
           <br></br>
 
-          Looking for exciting opportunities with a mid-large firn 
+          Looking for exciting opportunities with a mid-large firm 
           where I can contribute towards innovative solutions and 
           lead pivotal projects that impact the organization's team members
           </p>
