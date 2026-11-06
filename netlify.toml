@@ -1,0 +1,4 @@
+[build]
+  # Install dependencies if they are missing (e.g. CLI/agent deploys), then build.
+  command = "[ -f node_modules/vite/bin/vite.js ] || npm ci --no-audit --no-fund; npm run build"
+  publish = "dist"
