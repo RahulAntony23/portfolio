@@ -106,30 +106,29 @@ export const skillGroups = [
 // Links for the projects are placeholders: replace "#" with your repo / demo URLs.
 export const projects = [
   {
-    title: "AIRBUS Cloud Deployment Agent",
-    description:
-      "Agentic cloud deployment system that interprets flight-physics documentation, identifies required GCP tools, provisions simulation compute, and compiles diagnostic results.",
-    tags: ["GCP", "AI Agent", "Cloud Deployment"],
-    link: "#",
-  },
-  {
-    title: "RAG Chat Container",
-    description:
-      "Angular-based RAG application that answers client queries from telemetry dashboards and network requirement docs using document-grounded retrieval.",
-    tags: ["Angular", "RAG", "Telemetry"],
-    link: "#",
-  },
-  {
-    title: "Network Analysis & Telemetry Data Production",
-    description:
-      "Built Java Spring telemetry generation for network switches and Kafka middleware for scalable, cloud-native data pipelines across distributed systems.",
-    tags: ["Java", "Spring", "Kafka", "gNMI"],
-    link: "#",
-  },
-  {
     title: "CZMAPP",
-    description: "Community thread-sharing mobile app built with Flutter for a smoother, cross-device user experience.",
+    description: "A community thread-sharing mobile app built with Flutter.",
     tags: ["Flutter", "Dart", "Mobile"],
+    link: "#",
+  },
+  {
+    title: "CZMAPP Server",
+    description:
+      "Backend for CZMAPP using Spring Boot, MySQL, and JPA for REST APIs and data handling.",
+    tags: ["Spring Boot", "MySQL", "JPA"],
+    link: "#",
+  },
+  {
+    title: "Q'Do'or Registration Server",
+    description:
+      "Client registration service for the Q'Do'or project, written with Node.js and Express.",
+    tags: ["Node.js", "Express"],
+    link: "#",
+  },
+  {
+    title: "Q'Do'or Mobile App",
+    description: "Flutter app for QR-based deployment, part of the Q'Do'or project.",
+    tags: ["Flutter", "QR"],
     link: "#",
   },
 ];
